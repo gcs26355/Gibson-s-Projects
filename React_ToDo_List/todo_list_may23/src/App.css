@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: #203a63;
+}
+
+#title {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  color: black;
+  font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+  font-size: 50px;
+  font-weight: 650;
+}
+
+#horLine {
+  width: 300px;
+  background-color: black;
+  border: none;
+  height: 8px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+#inputArea {
+  padding-bottom: 20px;
+}
+
+#inputField::placeholder {
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  opacity: 0.5; /* Ensures color is solid in Firefox */
+}
+
+#inputField {
+  width: 170px;
+  height: 25px;
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  border-radius: 10px;
+  background-color: #4369ab;
+}
+
+#inputButton {
+  color: black;
+  background-color: #266320;
+  border: 1px solid black;
+  margin-left: 10px;
+  width: 80px;
+  height: 25px;
+  border-radius: 12px;
+}
+
+.checkBox {
+  appearance: none;
+  background-color: #a19e9e;
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  padding-top: 15px;
+  border-radius: 4px;
+  display: inline-grid;
+}
+
+.checkBox:checked {
+  background-color: #4CAF50;
+}
+
+.todoItem {
+  color: black;
+  font-size: 30px;
+  transition: opacity 0.4s ease, text-decoration 0.4s ease;
+}
+
+.todoItem.completed {
+  opacity: 0;
+  text-decoration: line-through;
+}
+
+.editButton {
+  color: black;
+  background-color: #585858;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 30px;
+  width: 60px;
+  height: 35px;
+  border-radius: 12px;
+}
+
+.editButton:hover {
+  background-color: rgb(211, 68, 68);    /* Standard color names also work */
+}
+
+#listField {
+  display: inline-block;  /* Shrink-wraps to content width */
+  text-align: left;       /* Items align left inside it */
+  margin-left: 200px;
+}
+
+#listField > div {
+  width: 500px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  /* Remove padding-left: 20% */
+}
+
+#listArea {
+  text-align: center;     /* Centers the inline-block listField */
+}
+
+#updateField {
+  width: 170px;
+  height: 25px;
+  margin-left: 20px;
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  border-radius: 10px;
+  background-color: #4369ab;
+}
+
+#updateField::placeholder {
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  opacity: 0.5; /* Ensures color is solid in Firefox */
+}
+
+#updateButton {
+  color: black;
+  background-color: #585858;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 10px;
+  width: 80px;
+  height: 35px;
+  border-radius: 12px;
+}
+
+#updateButton:hover {
+  background-color: rgb(211, 68, 68);    /* Standard color names also work */
+}
