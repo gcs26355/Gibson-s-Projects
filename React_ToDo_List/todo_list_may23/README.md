@@ -13,8 +13,9 @@ A simple to-do list app built with React and TypeScript.
 
 ```
 src/
-├── components/
-│   └── ToDos.tsx          # Main list component
+├── ToDos.tsx              # Main list component
+├── App.tsx               
+├── index.tsx
 └── paths/
     ├── createToDo.ts      # Adds a new task
     ├── deleteToDo.ts      # Removes a task by ID
